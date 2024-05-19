@@ -1,4 +1,4 @@
-# Landscapes_Prediction
+# Landscapes-Prediction
 
 I have developed a classification model designed to predict and categorize landscapes based on image data. The model is capable of distinguishing between six distinct categories of landscapes. The process involved training the model on a diverse dataset of extracted features of images, ensuring that it can accurately identify and classify each type. The six categories encompass a broad range of natural and possibly man-made environments, allowing the model to be highly versatile and applicable to various real-world scenarios.
 
@@ -53,6 +53,6 @@ Also, if you want to train the model, you can run [model_build](model_build.py) 
 
 ## Further Enhancement
 
-The performance of the model can be further improved if imbalance of dataset is reduced. Also if size of total dataset can be increased, we can see further increase in accuracy of model.
-Also, K-cross validation and Data Augmentation can also be implemented to improve accuracy of the model.
+-The performance of the model can be further improved if imbalance of dataset is reduced. Also if size of total dataset can be increased, we can see further increase in accuracy of model.
+-Also, K-cross validation and Data Augmentation can also be implemented to improve accuracy of the model.
 
