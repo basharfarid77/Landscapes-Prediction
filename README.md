@@ -24,7 +24,7 @@ All three features mentioned above are used in this project for training the cla
 
 ## Training model
 
-For this specific case, we used Random Forest Classifier model since it was best suited. Its ability to handle high-dimensional data, provide feature importance, and generalize well makes it a strong candidate for many machine learning problems.
+For this specific case, we used **Random Forest Classifier** model since it was best suited. Its ability to handle high-dimensional data, provide feature importance, and generalize well makes it a strong candidate for many machine learning problems.
 
 
 ## Installation and Flask App setup
