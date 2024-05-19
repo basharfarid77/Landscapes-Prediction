@@ -64,9 +64,9 @@ from sklearn.ensemble import RandomForestClassifier
 model = RandomForestClassifier(n_estimators=110, min_samples_split=40, min_impurity_decrease=0.0)
 model.fit(X_train,Y_train)
 
-print(model.score(X_train,Y_train))
-print(model.score(X_test,Y_test))
-print(model.score(final_data,label))
+#print(model.score(X_train,Y_train))
+#print(model.score(X_test,Y_test))
+#print(model.score(final_data,label))
 
 #Saving the model
 #pickle.dump(model, open("static/model/model.pkl", 'wb'))
