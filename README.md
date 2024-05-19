@@ -53,6 +53,5 @@ Also, if you want to train the model, you can run [model_build](model_build.py) 
 
 ## Further Enhancement
 
--The performance of the model can be further improved if imbalance of dataset is reduced. Also if size of total dataset can be increased, we can see further increase in accuracy of model.
--Also, K-cross validation and Data Augmentation can also be implemented to improve accuracy of the model.
-
+- The performance of the model can be further improved if imbalance of dataset is reduced. Also if size of total dataset can be increased, we can see further increase in accuracy of model.
+- Also, K-cross validation and Data Augmentation can also be implemented to improve accuracy of the model.
