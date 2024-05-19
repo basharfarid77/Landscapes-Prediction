@@ -12,7 +12,7 @@ This step majorly required to enhance sharpness of images, in case if any of the
 
 To train the model, we need to extract features on behalf of which they can be learned to be differentiated. Using those extracted features, a trained model can uniquely categorize them.
 
-In this project, we used Haralick, HuMoments, and Colour as features of images.
+In this project, we used **Haralick**, **HuMoments**, and **Colour** as features of images.
 
 Haralick Texture is used to quantify an image based on texture. The fundamental concept involved in computing Haralick Texture features is the Gray Level Co-occurrence Matrix or GLCM. The basic idea is that it looks for pairs of adjacent pixel values that occur in an image and keeps recording it over the entire image. From the GLCM matrices, 14 textural features are computed that are based on statistical calculation. These 14 features can be used as an extracted feature of image.
 
