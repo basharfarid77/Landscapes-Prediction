@@ -16,7 +16,7 @@ In this project, we used Haralick, HuMoments, and Colour as features of images.
 
 Haralick Texture is used to quantify an image based on texture. The fundamental concept involved in computing Haralick Texture features is the Gray Level Co-occurrence Matrix or GLCM. The basic idea is that it looks for pairs of adjacent pixel values that occur in an image and keeps recording it over the entire image. From the GLCM matrices, 14 textural features are computed that are based on statistical calculation. These 14 features can be used as an extracted feature of image.
 
-Image Moment is a particular weighted average of image pixel intensities, with the help of which we can find some specific properties of an image, like radius, area, centroid etc. Hu moments are a set of 7 values calculated using central moments that are invariant to image transformations such as translation, scale, and rotation. These moments are useful for shape recognition tasks. Once we have extracted the Hu moments for all images, they can be used as features for training the model
+Image Moment is a particular weighted average of image pixel intensities, with the help of which we can find some specific properties of an image, like radius, area, centroid etc. Hu moments are a set of 7 values calculated using central moments that are invariant to image transformations such as translation, scale, and rotation. These moments are useful for shape recognition tasks. Once we have extracted the Hu moments for all images, they can be used as features for training the model.
 
 Colour can also be used as a training feature of model since they can be useful in categorizing images uniquely. 
 
@@ -47,9 +47,12 @@ python app.py
 
 ## Other Information
 
-You can find all the guided steps in Model_Research.ipynb file where all steps are properly documented
+You can find all the guided steps in Model_Research.ipynb file where all steps are properly documented.
 
-Also, if you want to train the model, one can run model_build.py file. Make sure to uncomment the last line to save the model in pkl file format.
+Also, if you want to train the model, you can run model_build.py file. Make sure to uncomment last line to save the model in pkl file format.
 
+## Further Enhancement
 
+The performance of the model can be further improved if imbalance of dataset is reduced. Also if size of total dataset can be increased, we can see further increase in accuracy of model.
+Also, K-cross validation and Data Augmentation can also be implemented to improve accuracy of the model.
 
