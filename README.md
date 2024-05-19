@@ -14,7 +14,10 @@ Now activate the environment and install the required packages by running the co
 env\Scripts\activate
 pip install -r requirement.txt
 '''
-
+```
+>>> employee = pd.read_csv('data/employee')
+>>> max_dept_salary = employee.groupby('DEPARTMENT')['BASE_SALARY'].max()
+```
 Finally, run the command to deploy the flask app over localhost:5000
 '''
 python app.py
