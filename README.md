@@ -47,9 +47,9 @@ python app.py
 
 ## Other Information
 
-You can find all the guided steps in Model_Research.ipynb file where all steps are properly documented.
+You can find all the guided steps in [Model_Research](Model_Research.ipynb) file where all steps are properly documented.
 
-Also, if you want to train the model, you can run model_build.py file. Make sure to uncomment last line to save the model in pkl file format.
+Also, if you want to train the model, you can run [model_build](model_build.py) file. Make sure to uncomment last line to save the model in pkl file format.
 
 ## Further Enhancement
 
